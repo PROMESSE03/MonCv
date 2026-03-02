@@ -2,7 +2,7 @@
   <header class="header">
     <!-- header profile -->
     <div class="profile">
-      <div class="title">Ryan Adlard</div>
+      <div class="title">TAMDJIE</div>
       <TypingAnimation />
     </div>
 
@@ -55,7 +55,6 @@ export default {
           { name: "About", href: "about", icon: "icon ion-person" },
           { name: "Resume", href: "resume", icon: "icon ion-android-list" },
           { name: "Works", href: "works", icon: "icon ion-paintbrush" },
-          { name: "Blog", href: "blog", icon: "icon ion-chatbox-working" },
           { name: "Contact", href: "contacts", icon: "icon ion-at" },
         ];
       },

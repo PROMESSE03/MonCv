@@ -1,1 +1,1 @@
-export { default } from "file:///C:/Users/PROMESSE%20ING/Downloads/portfolio/package/ryan/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs"
+export { default } from "file:///C:/Users/PROMESSE%20ING/Downloads/portfolio/package/ryan/MonCv/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs"

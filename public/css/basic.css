@@ -400,7 +400,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #78cc6d;
+  background: #070040;
   opacity: 1;
   -webkit-animation: sk-bounce 2s infinite ease-in-out;
   animation: sk-bounce 2s infinite ease-in-out;
@@ -612,19 +612,19 @@ strong {
 
 .lnk:hover,
 .button:hover {
-  color: #78cc6d;
+  color: #070040;
 }
 
 .lnk:hover .ion,
 .button:hover .ion {
-  color: #78cc6d;
+  color: #070040;
 }
 
 .lnk:hover .arrow:before,
 .button:hover .arrow:before,
 .lnk:hover .arrow:after,
 .button:hover .arrow:after {
-  background: #78cc6d;
+  background: #070040;
 }
 
 .button {
@@ -642,7 +642,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #78cc6d;
+  color: #070040;
 }
 
 /* lists */
@@ -740,7 +740,7 @@ input:focus,
 textarea:focus,
 button:focus {
   color: #171717;
-  border-bottom: 1px solid #78cc6d;
+  border-bottom: 1px solid #070040;
 }
 
 textarea {
@@ -759,7 +759,7 @@ button {
 }
 
 button:hover {
-  border-bottom: 1px solid #78cc6d;
+  border-bottom: 1px solid #070040;
 }
 
 label,

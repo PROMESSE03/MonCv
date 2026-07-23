@@ -1,7 +1,7 @@
 <template>
   <div class="content about">
     <!-- title -->
-    <div class="title">About Me</div>
+    <div class="title">À propos de moi</div>
 
     <!-- content -->
     <div class="row">
@@ -12,11 +12,11 @@
         <div class="info-list">
           <ul>
             <li>
-              <strong>Residence . . . . .</strong>
+              <strong>Pays : </strong>
               {{ residence }}
             </li>
             <li>
-              <strong>Address . . . . .</strong>
+              <strong>Addresse : </strong>
               {{ address }}
             </li>
           </ul>

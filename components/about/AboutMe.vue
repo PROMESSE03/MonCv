@@ -16,7 +16,7 @@
         <div class="info-list">
           <ul>
             <li><strong>Age . . . . .</strong> 24</li>
-            <li><strong>Residence . . . . .</strong> USA</li>
+            <li><strong>Pays . . . . .</strong> USA</li>
             <li><strong>Address . . . . .</strong> California, USA</li>
           </ul>
         </div>

@@ -409,18 +409,18 @@
   height: 100%;
   background: -moz-linear-gradient(
     -45deg,
-    rgba(120, 204, 109, 0.4) 0%,
-    rgba(120, 204, 109, 0.01) 100%
+    rgba(8, 86, 193, 0.4) 0%,
+    rgba(8, 86, 193, 0.01) 100%
   );
   background: -webkit-linear-gradient(
     -45deg,
-    rgba(120, 204, 109, 0.4) 0%,
-    rgba(120, 204, 109, 0.01) 100%
+    rgba(8, 86, 193, 0.4) 0%,
+    rgba(8, 86, 193, 0.01) 100%
   );
   background: linear-gradient(
     135deg,
-    rgba(120, 204, 109, 0.4) 0%,
-    rgba(120, 204, 109, 0.01) 100%
+    rgba(8, 86, 193, 0.4) 0%,
+    rgba(8, 86, 193, 0.01) 100%
   );
   border-radius: 4px;
   -moz-border-radius: 4px;
@@ -548,7 +548,7 @@
 .card-started .profile .subtitle {
   margin: 0 0 15px 0;
   font-size: 14px;
-  color: #78cc6d;
+  color: #001b7b;
   line-height: 14px;
   font-weight: 400;
 }
@@ -573,7 +573,7 @@
 .card-started .profile .social a:hover .ion,
 .card-started .profile .social a:hover .fab,
 .card-started .profile .social a:hover .fas {
-  color: #78cc6d;
+  color: #001b7b;
 }
 
 .card-started .profile .lnk.active.discover .arrow {

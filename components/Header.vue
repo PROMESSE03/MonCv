@@ -52,9 +52,9 @@ export default {
       type: [Object, Array],
       default: function () {
         return [
-          { name: "About", href: "about", icon: "icon ion-person" },
-          { name: "Resume", href: "resume", icon: "icon ion-android-list" },
-          { name: "Works", href: "works", icon: "icon ion-paintbrush" },
+          { name: "À propos", href: "about", icon: "icon ion-person" },
+          { name: "PARCOURS", href: "resume", icon: "icon ion-android-list" },
+          { name: "PROJETS", href: "works", icon: "icon ion-paintbrush" },
           { name: "Contact", href: "contacts", icon: "icon ion-at" },
         ];
       },

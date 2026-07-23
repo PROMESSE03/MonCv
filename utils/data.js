@@ -4,14 +4,14 @@ export const defaultData = {
   age: 24,
   residence: "CANADA",
   address: "Quebec, CANADA",
-  typeingAnimation: ["Web Designer", "Developpeur", "MAintenance"],
+  typeingAnimation: ["Developer Web et mobile", "Developpeur fullstack", "Maintenance"],
   socialLinks: [
-    { id: 3, icons: "fa fa-github", link: "https://github.com/" },
-    { id: 4, icons: "fa fa-spotify", link: "https://www.spotify.com/" },
+    { id: 3, icons: "fa fa-github", link: "https://github.com/PROMESSE03" },
+    { id: 4, icons: "fa fa-envelope", link: "mailto:promessejordane12@gmail.com" },
     {
       id: 4,
-      icons: "fa fa-stack-overflow",
-      link: "https://stackoverflow.com/",
+      icons: "fa fa-linkedin",
+      link: "https://www.linkedin.com/in/promesse-jordan-tamdjie-411775282",
     },
   ],
   experiences: [
@@ -40,7 +40,7 @@ export const defaultData = {
   educations: [
     {
       id: 1,
-      date: "2025 - en cour",
+      date: "2025 - en cours",
       name: "Maitrise en Informatique",
       address: "Saguenay - CANADA",
       dec: "Université du Québec à Chicoutimi",
@@ -87,12 +87,11 @@ export const defaultData = {
     },
   ],
   funfactItems: {
-    title: "Fun Fact",
+    title: "Centres d'intérêt",
     items: [
-      { id: 1, title: "80 Albumes Listened", icon: "fa fa-music" },
-      { id: 2, title: "15 Awards Won", icon: "fa fa-trophy" },
-      { id: 3, title: "1 000 Cups of coffee", icon: "fa fa-coffee" },
-      { id: 4, title: "10 Countries Visited", icon: "fa fa-flag" },
+      { id: 1, title: "Sport", icon: "fa fa-futbol-o" },
+      { id: 2, title: "Musique", icon: "fa fa-music" },
+      { id: 3, title: "Voyage", icon: "fa fa-plane" },
     ],
   },
   clients: [

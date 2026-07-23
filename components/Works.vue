@@ -2,32 +2,22 @@
   <ActiveSection :section-name="'works'">
     <div class="content works">
       <!-- title -->
-      <div class="title">Recent Works</div>
+      <div class="title">Mes projets</div>
       <!-- filters -->
       <div class="filter-menu filter-button-group">
         <div class="f_btn active">
           <label
-            ><input type="radio" name="fl_radio" value="grid-item" />All</label
+            ><input type="radio" name="fl_radio" value="grid-item" />Tous</label
           >
         </div>
         <div class="f_btn">
           <label
-            ><input type="radio" name="fl_radio" value="photo" />Photo</label
+            ><input type="radio" name="fl_radio" value="photo" />Mobile</label
           >
         </div>
         <div class="f_btn">
           <label
-            ><input type="radio" name="fl_radio" value="video" />Video</label
-          >
-        </div>
-        <div class="f_btn">
-          <label
-            ><input type="radio" name="fl_radio" value="music" />Music</label
-          >
-        </div>
-        <div class="f_btn">
-          <label
-            ><input type="radio" name="fl_radio" value="design" />Design</label
+            ><input type="radio" name="fl_radio" value="video" />Web</label
           >
         </div>
       </div>
@@ -328,24 +318,44 @@ useHead({
 
 <script>
 import imagesLoaded from "imagesloaded";
+import { navFunction } from "../utils/navFunction";
 export default {
   name: `Isotope`,
+  data() {
+    return {
+      iso: null,
+      navFunction,
+    };
+  },
+  watch: {
+    "navFunction.active"(value) {
+      // la section "works" est montée mais cachée par défaut : Isotope a pu
+      // calculer les positions alors que le conteneur était invisible.
+      // On relance le layout dès que l'onglet devient visible.
+      if (value === "works" && this.iso) {
+        this.$nextTick(() => this.iso.layout());
+      }
+    },
+  },
   mounted() {
     var imgLoad = imagesLoaded(".grid-items");
-    imgLoad.on("done", function (instance) {
+    imgLoad.on("done", (instance) => {
       if (instance.isComplete) {
         setTimeout(() => {
           // init Isotope
-          var iso = new Isotope(".grid-items", {
+          this.iso = new Isotope(".grid-items", {
             itemSelector: ".grid-item",
           });
+          if (this.navFunction.active === "works") {
+            this.iso.layout();
+          }
           // bind filter button click
           var filtersElem = document.querySelector(".filter-button-group");
-          filtersElem.addEventListener("click", function (event) {
+          filtersElem.addEventListener("click", (event) => {
             // console.log(event.target.closest(".f_btn"));
             if (event.target.value !== undefined) {
               var filterValue = event.target.getAttribute("value");
-              iso.arrange({ filter: `.${filterValue}` });
+              this.iso.arrange({ filter: `.${filterValue}` });
             }
           });
 

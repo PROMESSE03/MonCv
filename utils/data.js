@@ -1,6 +1,6 @@
 export const defaultData = {
   name: "TAMDJIE Promesse Jordan",
-  bio: "<p> Ingénieur diplômé au Cameroun, je justifie de trois années d'expérience professionnelle à la croisée du développement web et de l'administration des infrastructures réseau. Actuellement en poursuite d’études à la maîtrise à l’Université du Québec à Chicoutimi (UQAC), je consolide mes compétences techniques tout en développant une vision stratégique des systèmes d’information.</p>",
+  bio: "<p>Étudiant à la maîtrise en informatique à l'Université du Québec à Chicoutimi (UQAC), je possède trois années d'expérience en développement web et en administration des infrastructures réseau, et je mets à profit mes compétences pour concevoir des solutions logicielles performantes, sécurisées et innovantes tout en approfondissant mon expertise en développement logiciel et en cybersécurité.</p>",
   age: 24,
   residence: "CANADA",
   address: "Quebec, CANADA",
